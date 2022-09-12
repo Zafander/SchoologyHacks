@@ -28,6 +28,6 @@
     alert("enjoy the rick roll");
 
     // Here's the code for using this:
-    // document.head.appendChild(document.createElement('script')).src = 'https://bubbybabur.github.io/SchoologyHacks/addiframe.js'
+    // document.head.appendChild(document.createElement('script')).src = 'https://github.com/Zafander/SchoologyHacks/blob/1ed0f8972ae7dfd3c48f263c5b0a2afd17666d21/addiframe.js'
     
 })();
