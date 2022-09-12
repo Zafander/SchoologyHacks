@@ -11,13 +11,13 @@
     
     // Then, we prompt the user for the URL of the iframe, then let the src (shorthand for "source")
     // of the iframe to be the user's input.
-    toInsertIframe.src = prompt("Please enter the URL for the IFrame (you can still switch to another tab during this time):");
+    toInsertIframe.src = prompt("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
     
     // We then ask the user for the width of the iframe, and assign that to the iframe's width.
-    toInsertIframe.width = `${prompt("Enter a number (in pixels) for how wide the iframe should be: ")}px`;
+    toInsertIframe.width = `${prompt("854")}px`;
     
     // Same for height.
-    toInsertIframe.height = `${prompt("Enter a number (in pixels) for how high the iframe should be: ")}px`;
+    toInsertIframe.height = `${prompt("480")}px`;
     
     // Finally, we get the element "tinymce" that's in Schoology by getting one of its parents first, "edit-body-ifr". 
     // The element tinymce is where the post is stored. Then, we stuff the iframe into "tinymce" and call it a day.
@@ -25,7 +25,7 @@
 
     // Finally, we give the user a friendly message to remind them that HTML5 is weird.
     // (alert basically gives the user a message)
-    alert("After it shows up (give some time to load), press post. Some sites don't allow you to put them in iframes (most sites actually), but I'm pretty sure Github Pages is a safe bet.");
+    alert("enjoy the rick roll");
 
     // Here's the code for using this:
     // document.head.appendChild(document.createElement('script')).src = 'https://bubbybabur.github.io/SchoologyHacks/addiframe.js'
